@@ -4,6 +4,34 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 80px;
+  background: #0d0d0d;
+}
+
+.magnetic-btn {
+  padding: 18px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  border: none;
+  border-radius: 100px;
+  background: #fff;
+  color: #0d0d0d;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.magnetic-btn--outline {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.magnetic-dot {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #6c63ff;
 }
 
 .App-logo {
